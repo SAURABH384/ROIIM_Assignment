@@ -103,6 +103,11 @@
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
+		    <appName>ROIIM_Assignment</appName>
+
+  <processTypes>
+     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+  </processTypes>
             </configuration>
         </plugin>
 	    <plugin>
@@ -112,13 +117,5 @@
       </plugin>
     </plugins>
 	</build>
-	<configuration>
-		
-  <appName>ROIIM_Assignment</appName>
-
-  <processTypes>
-     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
-  </processTypes>
-</configuration>
-
+	
 </project>
