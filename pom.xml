@@ -90,19 +90,19 @@
 	<build>
 		
     <plugins>
-	    <plugin>
+    <plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-             <artifactId>maven-jar-plugin</artifactId>
+<artifactId>maven-jar-plugin</artifactId>
 <configuration>
-      <archive>
-    <manifest>
+<archive>
+<manifest>
 <mainClass>com.ROIIM.Assignment.AssignmentApplication</mainClass>
-   </manifest>
-   </archive>
+</manifest>
+</archive>
 </configuration>  
   </plugin>
     </plugins>
